@@ -1,0 +1,23 @@
+{
+  "name": "googlesearch",
+  "version": "1.0.0",
+  "description": "El proyecto 0 del curso de Harvard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-sass": "sass --watch main.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedetoc/GoogleSearch.git"
+  },
+  "author": "Federico Tocco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedetoc/GoogleSearch/issues"
+  },
+  "homepage": "https://github.com/fedetoc/GoogleSearch#readme",
+  "dependencies": {
+    "concurrently": "^6.2.0"
+  }
+}
