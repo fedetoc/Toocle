@@ -19,5 +19,8 @@
   "homepage": "https://github.com/fedetoc/GoogleSearch#readme",
   "dependencies": {
     "concurrently": "^6.2.0"
+  },
+  "devDependencies": {
+    "prettier": "2.3.2"
   }
 }

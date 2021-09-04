@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Search</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    hola mundo
+    <img src="./recursos/googlelogo_color_272x92dp.png" />
+    <form action="https://google.com/search">
+      <div class="search">
+        <div class="search__bar">
+          <input
+            type="search"
+            name="q"
+            class="search__bar--input"
+            list="searchList"
+          />
+          <datalist id="searchList" class="search__bar--list">
+            <option>Una opcion</option>
+            <option>Otra opcion</option>
+            <option>Tercera opcion</option>
+          </datalist>
+        </div>
+        <ion-icon
+          class="search__icons search__icons--search"
+          name="search-outline"
+        ></ion-icon>
+        <ion-icon
+          class="search__icons search__icons--mic"
+          name="mic-outline"
+        ></ion-icon>
+      </div>
+      <input type="submit" value="Google Search" class="btn" />
+    </form>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
