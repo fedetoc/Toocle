@@ -1,0 +1,33 @@
+.link {
+  &,
+  &:link,
+  &:visited {
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    padding: 0.6rem;
+  }
+
+  &--dark {
+    &,
+    &:visited,
+    &:link {
+      color: var(--link-color);
+      font-size: 1.25rem;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &--shadow-hover {
+    &:hover {
+      border-radius: 30rem;
+      background-color: rgb(235, 235, 235);
+    }
+  }
+
+  /*&--light {
+  }*/
+}

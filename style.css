@@ -17,8 +17,10 @@ body {
 }
 
 :root {
-  --btn-color: #f7f7f7;
+  --btn-back-color: #f7f7f7;
+  --btn-color: #616161;
   --font-color: #3c4043;
+  --link-color: #2e2e2e;
 }
 
 .btn {
@@ -26,7 +28,8 @@ body {
   height: 3.6rem;
   padding: 0rem 1.1rem;
   font-size: 1.4rem;
-  background-color: var(--btn-color);
+  background-color: var(--btn-back-color);
+  color: var(--btn-color);
   border: none;
   cursor: pointer;
   line-height: 2.7rem;
@@ -75,6 +78,69 @@ body {
 .search__icons--mic:hover {
   border: none;
   color: orange;
+}
+
+.link {
+  /*&--light {
+  }*/
+}
+.link, .link:link, .link:visited {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  padding: 0.6rem;
+}
+.link--dark, .link--dark:visited, .link--dark:link {
+  color: var(--link-color);
+  font-size: 1.25rem;
+}
+.link--dark:hover {
+  text-decoration: underline;
+}
+.link--shadow-hover:hover {
+  border-radius: 30rem;
+  background-color: #ebebeb;
+}
+
+.user-icon {
+  background-color: #8b4e25;
+  border-radius: 30rem;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.1rem;
+  min-width: 3rem;
+  min-height: 3rem;
+  font-size: 1.7rem;
+}
+
+.topbar {
+  height: 6rem;
+  padding: 0 1.5rem;
+}
+.topbar__list {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+.topbar__item {
+  list-style: none;
+}
+.topbar__item:not(:last-child) {
+  margin-right: 1.7rem;
+}
+.topbar__user {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+.topbar__gapps-icon {
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

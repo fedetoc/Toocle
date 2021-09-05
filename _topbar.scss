@@ -1,0 +1,27 @@
+.topbar {
+  height: 6rem;
+  padding: 0 1.5rem;
+  &__list {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  &__item {
+    list-style: none;
+    &:not(:last-child) {
+      margin-right: 1.7rem;
+    }
+  }
+
+  &__user {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  &__gapps-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
