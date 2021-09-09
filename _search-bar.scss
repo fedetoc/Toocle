@@ -1,13 +1,14 @@
 .search {
   position: relative;
-  width: 60rem;
+  width: min(60rem, 90vw);
   &__bar {
     &--input {
       width: 100%;
-      padding: 1.4rem 5rem;
+      padding: 1.2rem 5rem;
       background-color: transparent;
       border-radius: 31px;
       border: 0.7px solid rgb(221, 221, 221);
+      font-size: 1.6rem;
 
       &:focus {
         outline: none;
@@ -15,6 +16,10 @@
       &:hover {
         box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
       }
+    }
+
+    &--list {
+      width: 100%;
     }
   }
 

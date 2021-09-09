@@ -1,5 +1,5 @@
 .topbar {
-  height: 6rem;
+  height: var(--topbar-height);
   padding: 0 1.5rem;
   &__list {
     display: flex;

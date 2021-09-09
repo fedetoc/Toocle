@@ -1,0 +1,9 @@
+.search {
+  &__btns {
+    text-align: center;
+    margin-top: 2.7rem;
+    & > .btn:nth-child(1) {
+      margin-right: 1rem;
+    }
+  }
+}

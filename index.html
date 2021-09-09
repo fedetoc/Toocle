@@ -28,9 +28,12 @@
         </li>
       </ul>
     </nav>
-    <main>
-      <img src="./recursos/googlelogo_color_272x92dp.png" />
-      <form action="https://google.com/search">
+    <main class="main">
+      <img
+        src="./recursos/googlelogo_color_272x92dp.png"
+        class="u-margin-bot-small"
+      />
+      <form action="https://google.com/search" class="search__form">
         <div class="search">
           <div class="search__bar">
             <input
@@ -54,10 +57,26 @@
             name="mic-outline"
           ></ion-icon>
         </div>
-        <input type="submit" value="Google Search" class="btn" />
+        <div class="search__btns">
+          <input type="submit" value="Google Search" class="btn" />
+          <input type="submit" value="Busqueda Avanzada" class="btn" />
+        </div>
       </form>
+      <div class="language">
+        <p class="language__text">Google offered in: <a href="#">Español</a></p>
+      </div>
     </main>
-    <footer>Footer</footer>
+    <footer class="footer">
+      <div class="footer__up"><p class="country">Argentina</p></div>
+      <span class="footer__separator"></span>
+      <div class="footer__down">
+        <p class="copyright">
+          This site was developed by Federico L Tocco with the only purpose of
+          being delivered as Project 0 of CS50's Web Programming With Python and
+          Javascript course.
+        </p>
+      </div>
+    </footer>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"

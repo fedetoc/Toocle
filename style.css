@@ -12,8 +12,18 @@ html {
 }
 
 body {
+  overflow: hidden;
   font-family: arial, sans-serif;
   color: var(--font-color);
+}
+
+.main {
+  padding: 4rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100vh - var(--topbar-height) - var(--footer-height));
+  min-height: 32rem;
 }
 
 :root {
@@ -21,9 +31,13 @@ body {
   --btn-color: #616161;
   --font-color: #3c4043;
   --link-color: #2e2e2e;
+  --footer-color: #f1f1f1;
+  --footer-height: 8rem;
+  --topbar-height: 6rem;
 }
 
 .btn {
+  display: inline-block;
   min-width: 5.4rem;
   height: 3.6rem;
   padding: 0rem 1.1rem;
@@ -42,20 +56,24 @@ body {
 
 .search {
   position: relative;
-  width: 60rem;
+  width: min(60rem, 90vw);
 }
 .search__bar--input {
   width: 100%;
-  padding: 1.4rem 5rem;
+  padding: 1.2rem 5rem;
   background-color: transparent;
   border-radius: 31px;
   border: 0.7px solid #dddddd;
+  font-size: 1.6rem;
 }
 .search__bar--input:focus {
   outline: none;
 }
 .search__bar--input:hover {
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+.search__bar--list {
+  width: 100%;
 }
 .search__icons {
   position: absolute;
@@ -119,7 +137,7 @@ body {
 }
 
 .topbar {
-  height: 6rem;
+  height: var(--topbar-height);
   padding: 0 1.5rem;
 }
 .topbar__list {
@@ -141,6 +159,55 @@ body {
 .topbar__gapps-icon {
   width: 2.5rem;
   height: 2.5rem;
+}
+
+.u-margin-bot-small {
+  margin-bottom: 2.5rem;
+}
+
+.u-margin-top-verysmall {
+  margin-top: 1.5rem;
+}
+
+.search__btns {
+  text-align: center;
+  margin-top: 2.7rem;
+}
+.search__btns > .btn:nth-child(1) {
+  margin-right: 1rem;
+}
+
+.footer {
+  height: var(--footer-height);
+  background-color: var(--footer-color);
+  padding: 0 1rem;
+  color: #7e7e7e;
+}
+.footer__separator {
+  height: 1.1px;
+  display: block;
+  background-color: #c5c5c5;
+}
+.footer > div {
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.country {
+  font-size: 1.4rem;
+}
+
+.language {
+  margin-top: 2rem;
+}
+.language__text {
+  font-size: 1.1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
