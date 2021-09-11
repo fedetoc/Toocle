@@ -1,0 +1,11 @@
+.logo {
+  width: auto;
+  display: inline-block;
+  &--big {
+    height: 9rem;
+  }
+
+  &--small {
+    height: 3.5rem;
+  }
+}
