@@ -34,7 +34,7 @@
       </ul>
     </nav>
     <main class="main main--advanced">
-      <h1 class="advanced__title-1">Advanced Search</h1>
+      <h1 class="advanced__title-1 u-margin-bot-medium">Advanced Search</h1>
       <form
         class="advanced-form"
         action="https://www.google.com/search"
@@ -52,34 +52,57 @@
         >
           To do this in the search box
         </h3>
-        <label for="all" class="advanced-form__label"
+        <label
+          for="all"
+          class="advanced-form__label advanced-form__label--layout"
           >Search all this words:</label
         >
-        <input id="all" class="advanced-form__input" />
+        <input id="all" type="text" class="advanced-form__input" name="as_q" />
         <p class="advanced-form__description">
           Type the important words: tri-colour rat terrier
         </p>
-        <label for="this" class="advanced-form__label"
+        <label
+          for="this"
+          class="advanced-form__label advanced-form__label--layout"
           >This exact word or phrase:</label
         >
-        <input id="this" class="advanced-form__input" />
+        <input
+          id="this"
+          type="text"
+          class="advanced-form__input"
+          name="as_epq"
+        />
         <p class="advanced-form__description">
           Put exact words in quotes: "rat terrier"
         </p>
-        <label for="any" class="advanced-form__label"
+        <label
+          for="any"
+          class="advanced-form__label advanced-form__label--layout"
           >Search any of this words:</label
         >
-        <input id="any" class="advanced-form__input" />
+        <input id="any" type="text" class="advanced-form__input" name="as_oq" />
         <p class="advanced-form__description">
           Type OR between all the words you want: miniature OR standard
         </p>
-        <label for="none" class="advanced-form__label"
+        <label
+          for="none"
+          class="advanced-form__label advanced-form__label--layout"
           >Search none of this words:</label
         >
-        <input id="none" class="advanced-form__input" />
+        <input
+          id="none"
+          type="text"
+          class="advanced-form__input"
+          name="as_eq"
+        />
         <p class="advanced-form__description">
           Put a minus sign just before words that you don't want
         </p>
+        <input
+          type="submit"
+          class="btn-search advanced-form__btn--layout"
+          value="Advanced Search"
+        />
       </form>
     </main>
     <footer class="footer">

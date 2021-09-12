@@ -1,0 +1,36 @@
+.btn-search {
+  display: inline-block;
+  padding: 0.9rem 1.3rem;
+  background-image: linear-gradient(
+    42deg,
+    rgba(75, 173, 199, 1) 0%,
+    rgba(42, 179, 209, 1) 57%,
+    rgba(6, 177, 213, 1) 100%
+  );
+  border: 1px solid rgb(76, 162, 196);
+  border-radius: 2px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+  line-height: 1;
+  cursor: pointer;
+
+  &:hover {
+    background-image: linear-gradient(
+      42deg,
+      #3b93ab 0%,
+      #26aac7 57%,
+      #52aec1 100%
+    );
+  }
+
+  &:active {
+    transform: scale(0.95);
+    background-image: linear-gradient(
+      42deg,
+      rgb(59, 134, 155) 0%,
+      rgb(29, 127, 150) 57%,
+      rgb(2, 131, 156) 100%
+    );
+  }
+}
