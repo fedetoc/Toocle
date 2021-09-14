@@ -1,7 +1,8 @@
 .main {
-  height: calc(100vh - var(--topbar-height) - var(--footer-height));
+  height: calc(100vh - var(--topbar-height) - var(--footer-height) - 0.5rem);
   &--home {
     padding: 4rem 0rem;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,5 +12,12 @@
   &--advanced {
     padding: 3rem 5rem;
     min-height: 47rem;
+  }
+}
+
+.language {
+  margin-top: 2rem;
+  &__text {
+    font-size: 1.1rem;
   }
 }

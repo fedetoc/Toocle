@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
     <title>Search Images</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="../recursos/favicon.png" />
+    <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
     <nav class="topbar">
       <ul class="topbar__list">
         <li class="topbar__item">
-          <a class="link link--dark">Search an Image</a>
+          <a href="/" class="link link--dark">Return to Main</a>
         </li>
         <li class="topbar__item">
           <a href="./advanced_search.html" class="link link--dark"
@@ -33,7 +35,7 @@
     <main class="main main--home">
       <div style="position: relative">
         <img
-          src="./recursos/logo.png"
+          src="../recursos/logo.png"
           class="logo logo--big u-margin-bot-small"
         />
         <span class="logo--images">images</span>
@@ -58,12 +60,9 @@
           ></ion-icon>
         </div>
         <div class="search__btns">
-          <input
-            type="submit"
-            name="btnK"
-            value="Toocle Image Search"
-            class="btn"
-          />
+          <button type="submit" name="tbm" value="isch" class="btn">
+            Toocle Image Search
+          </button>
         </div>
       </form>
     </main>
