@@ -7,13 +7,13 @@
       padding: 1.2rem 5rem;
       background-color: transparent;
       border-radius: 31px;
-      border: 0.7px solid rgb(221, 221, 221);
+      border: 1.5px solid var(--color-primary-darker-three);
       font-size: 1.6rem;
 
       &:focus,
       &:hover {
         outline: none;
-        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+        box-shadow: 1px 1px 4px rgba(var(--color-black), 0.2);
       }
     }
   }

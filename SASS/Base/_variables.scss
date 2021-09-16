@@ -1,11 +1,20 @@
 :root {
-  --btn-back-color: #f7f7f7;
-  --btn-color: #616161;
-  --input-color: #cfcfcf;
-  --font-color: #3c4043;
-  --link-color: #2e2e2e;
-  --footer-color: #f1f1f1;
+  /*////////////PRINCIPAL COLORS////////////////*/
+  --primary-color: white;
+  --secondary-color: rgb(206, 56, 56);
 
+  /*////////////GRAYSCALE COLORS//////////////////*/
+  --color-primary-darker-one: #f1f1f1;
+  --color-primary-darker-two: #f7f7f7;
+  --color-primary-darker-three: rgb(232, 232, 232);
+  --color-grey-light-one: #cfcfcf;
+  --color-grey-light-two: #7e7e7e;
+  --color-grey-light-three: #616161;
+  --color-grey-dark-one: #3c4043; /*Overall font color*/
+  --color-grey-dark-two: #2e2e2e;
+  --color-black: 0, 0, 0;
+
+  /*///////////////OTHER MEASURES////////////////////*/
   --footer-height: 9rem;
   --topbar-height: 6rem;
 }

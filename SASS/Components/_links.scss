@@ -12,7 +12,7 @@
     &,
     &:visited,
     &:link {
-      color: var(--link-color);
+      color: var(--color-grey-dark-two);
       font-size: 1.25rem;
     }
 
@@ -24,7 +24,7 @@
   &--shadow-hover {
     &:hover {
       border-radius: 30rem;
-      background-color: rgb(235, 235, 235);
+      background-color: var(--color-primary-darker-three);
     }
   }
 }

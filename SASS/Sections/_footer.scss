@@ -1,12 +1,12 @@
 .footer {
   height: var(--footer-height);
-  background-color: var(--footer-color);
+  background-color: var(--color-primary-darker-one);
   padding: 0 1.5rem;
-  color: #7e7e7e;
+  color: var(--color-grey-light-two);
   &__separator {
     height: 1.1px;
     display: block;
-    background-color: #c5c5c5;
+    background-color: var(--color-grey-light-one);
   }
   & > div {
     height: 50%;
