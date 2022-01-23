@@ -4,24 +4,27 @@
   "description": "El proyecto 0 del curso de Harvard",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "live-server --browser:chrome",
     "watch-sass": "sass --watch --style=compressed SASS/main.scss style.css",
-    "build": "webpack"
+    "start": "concurrently \"npm:watch-*\"",
+    "build": "webpack",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fedetoc/GoogleSearch.git"
+    "url": "git+https://github.com/fedetoc/Toocle.git"
   },
   "author": "Federico Tocco",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fedetoc/GoogleSearch/issues"
+    "url": "https://github.com/fedetoc/Toocle/issues"
   },
-  "homepage": "https://github.com/fedetoc/GoogleSearch#readme",
+  "homepage": "https://github.com/fedetoc/Toocle",
   "dependencies": {
     "concurrently": "^6.2.0"
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "html-loader": "^3.1.0",
     "html-webpack-plugin": "^5.5.0",
     "prettier": "2.3.2",
