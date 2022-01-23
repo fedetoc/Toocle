@@ -2,15 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Search Images</title>
-    <link rel="icon" href="./favicon.png" />
-    <link rel="stylesheet" href="./style.css" />
+    <title>Toocle</title>
+    <link rel="icon" href="../../res/favicon.png" />
+    <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
     <nav class="topbar">
       <ul class="topbar__list">
         <li class="topbar__item">
-          <a href="/index.html" class="link link--dark">Return to Main</a>
+          <a href="./toocle_images.html" class="link link--dark"
+            >Search an Image</a
+          >
         </li>
         <li class="topbar__item">
           <a href="./advanced_search.html" class="link link--dark"
@@ -33,16 +35,8 @@
       </ul>
     </nav>
     <main class="main main--home">
-      <div style="position: relative">
-        <img src="./logo.png" class="logo logo--big u-margin-bot-small" />
-        <span class="logo--images">images</span>
-      </div>
-      <form
-        action="https://google.com/search"
-        class="search__form"
-        name="f"
-        method="GET"
-      >
+      <img src="../../res/logo.png" class="logo logo--big u-margin-bot-small" />
+      <form action="https://google.com/search" class="search__form">
         <div class="search">
           <div class="search__bar">
             <input type="text" name="q" class="search__bar--input" />
@@ -57,11 +51,15 @@
           ></ion-icon>
         </div>
         <div class="search__btns">
-          <button type="submit" name="tbm" value="isch" class="btn">
-            Toocle Image Search
+          <input type="submit" name="btnK" value="Toocle Search" class="btn" />
+          <button type="submit" value="1" class="btn" name="btnI">
+            Feeling Lucky?
           </button>
         </div>
       </form>
+      <div class="language">
+        <p class="language__text">Toocle offered in: <a href="#">Español</a></p>
+      </div>
     </main>
     <footer class="footer">
       <div><p class="country">Argentina</p></div>
