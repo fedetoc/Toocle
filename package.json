@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fedetoc/Toocle.git"
+    "url": "git+https://github.com/fedetoc/toocle.git"
   },
   "author": "Federico Tocco",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fedetoc/Toocle/issues"
+    "url": "https://github.com/fedetoc/toocle/issues"
   },
-  "homepage": "https://github.com/fedetoc/Toocle",
+  "homepage": "https://fedetoc.github.io/toocle/",
   "dependencies": {
     "concurrently": "^6.2.0"
   },
