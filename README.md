@@ -1,6 +1,6 @@
 # Toocle
 
-This project is a customized front-end for Google's search engine inspired in it's own design, that redirect's to it's own search results.
+This project is a customized front-end for Google's search engine inspired in it's design, that redirect's to Google's own search results.
 
 This site was developed by me with the only purpose of being delivered as Project 0 of CS50's Web Programming With Python and Javascript course.
 
